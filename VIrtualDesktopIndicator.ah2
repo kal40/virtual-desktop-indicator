@@ -130,3 +130,5 @@ TraySetIcon(".\icons\1.ico")
 #^!e:: MoveOrGotoDesktopNumber(7)
 #^!r:: MoveOrGotoDesktopNumber(8)
 #^!t:: MoveOrGotoDesktopNumber(9)
+
+MsgBox("Your Windows version is: " . A_OSVersion)
