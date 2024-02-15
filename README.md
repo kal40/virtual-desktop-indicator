@@ -16,7 +16,7 @@ Most of the code is taken from [VirtualDesktopAccessor](https://github.com/Ciant
 ## Installation
 
 1. Clone or download the repo to a folder where you want to store it.
-2. Run `install.ps1` or create a shortcut about the `virtual-desktop-indicator.exe` and copy to the windows startup folder.
+2. Run `install.ps1` or create a shortcut about the `virtual-desktop-indicator.exe` and copy to the windows startup folder (<img src="icons/windows.ico" width="20" height="20" style="vertical-align: bottom;">+R, type `shell:startup`, then select **OK**).
 
 > **Note:** because of windows frequently changes the Virtual Desktop related APIs then you may need to use a different `VirtualDesktopAccessor.dll`. Go to [VirtualDesktopAccessor Releases](https://github.com/Ciantic/VirtualDesktopAccessor/releases) and check the descriptions on the different releases related to the different windows versions then download the one that complies with your current windows version and overwrite the current `dll` file in the `libs` folder.
 >
