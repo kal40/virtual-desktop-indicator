@@ -20,7 +20,7 @@ Most of the code is taken from [VirtualDesktopAccessor](https://github.com/Ciant
 
 > **Note:** because of windows frequently changes the Virtual Desktop related APIs then you may need to use a different `VirtualDesktopAccessor.dll`. Go to [VirtualDesktopAccessor Releases](https://github.com/Ciantic/VirtualDesktopAccessor/releases) and check the descriptions on the different releases related to the different windows versions then download the one that complies with your current windows version and overwrite the current `dll` file in the `libs` folder.
 >
-> The `dll` file in this repo should work with Windows OS Build 23H2 22631.2506 and with older 22621.2215
+> The `dll` file in this repo should work with Windows OS Build 23H2 22631.3085
 
 ## Usage
 
